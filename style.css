@@ -2,6 +2,110 @@ body {
     background-color: rgb(253, 251, 251);
 }
 #cabecalho {
-    position: fixed; top: 0;
+    position: fixed; 
+    top: 0;
+}
+#minha_foto  {
+    border-radius: 50%;
+    margin: 20px 555px;
+}
+#minha_foto:hover {
+    width: 300px;
+}
+#depoimento {
+    margin: 0px 585px;
+    font-family: 'Dancing Script';
+    font-size: 20px;
+}
+
+#titulo {
+    font-family: 'Dancing Script';
+    color: #343a40;
+    font-size: 40px;
+}
+
+h2 {
+    font-style: italic;
+    font-family: 'Dancing Script';
+    background-color: #f0efeb;
+    color:#343a40;
+    width: 300px;
+    text-align: center;
+}
+
+.Lista {
+    line-height: 25px;
+    display: flex;
+    border-style: groove;
+    padding: 25px 125px;
+    border-radius: 25% 75px;
+    margin: 50px 200px;
+}
+#licoes_aprendidas  {
+    color: #343a40;
+    width: 300px;
+}
+#licoes_a_aprender {
+    color: #343a40;
+    width: 300px;
+}
+.lado-esquerdo {
+    width: 500px;
+    margin: 10px;
+    border-style: groove;
+    padding: 5px;
+    text-align: center;
+}
+.lado-direito {
+    width: 500px;
+    margin: 10px;
+    border-style: groove;
+    padding: 55px 5px;
+    text-align: center;
+    
+}
+.display {
+    color: #343a40;
+    display: inline-flex;
+    background-color: #f0efeb;
+    margin: 50px 100px;
+    padding: 2px 2px;
+    border: 2px;
+    vertical-align: middle;
+    font-family: 'Parisienne';
+
+}
+.lin {
+    background-color: #b7b7a4;;
+    width: 380px;
+    height: 50px;   
+    margin: 20px 450px;
+    padding: 25px 0px 0px 30px;
+}
+.lin:hover {
+    background-color: #343a40;
+    color: #e9ecef;
+}
+table, th, td {
+    text-align: center;
+    border: 1px solid #b7b7a4;
+    border-collapse: collapse;
+    background-color: #f0efeb;
+    width: 500px;
+}
+table {
+    float: inline-start;
+    color: #343a40;
+}
+table, #rodape {
+    display: block;
+    width: 500px;
+    margin: 0px 400px; 
+}
+#rodape {
+    text-align: center;
+    color: #343a40;
+    font-family: 'Dancing Script';
+    font-weight: bold;
 }
 
